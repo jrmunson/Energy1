@@ -7,15 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		380C78461C810588007D9447 /* People.m in Sources */ = {isa = PBXBuildFile; fileRef = 380C78431C810588007D9447 /* People.m */; };
+		380C78471C810588007D9447 /* PeopleTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 380C78451C810588007D9447 /* PeopleTableViewCell.m */; };
 		387742B41C80F928005A8EB0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 387742B31C80F928005A8EB0 /* main.m */; };
 		387742B71C80F928005A8EB0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 387742B61C80F928005A8EB0 /* AppDelegate.m */; };
 		387742BA1C80F928005A8EB0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 387742B91C80F928005A8EB0 /* ViewController.m */; };
 		387742BD1C80F928005A8EB0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 387742BB1C80F928005A8EB0 /* Main.storyboard */; };
 		387742BF1C80F928005A8EB0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 387742BE1C80F928005A8EB0 /* Assets.xcassets */; };
 		387742C21C80F928005A8EB0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 387742C01C80F928005A8EB0 /* LaunchScreen.storyboard */; };
+		387742E71C810135005A8EB0 /* email32.png in Resources */ = {isa = PBXBuildFile; fileRef = 387742DF1C810135005A8EB0 /* email32.png */; };
+		387742E81C810135005A8EB0 /* facebookicon32.png in Resources */ = {isa = PBXBuildFile; fileRef = 387742E01C810135005A8EB0 /* facebookicon32.png */; };
+		387742E91C810135005A8EB0 /* pause32.png in Resources */ = {isa = PBXBuildFile; fileRef = 387742E11C810135005A8EB0 /* pause32.png */; };
+		387742EA1C810135005A8EB0 /* play32.png in Resources */ = {isa = PBXBuildFile; fileRef = 387742E21C810135005A8EB0 /* play32.png */; };
+		387742EB1C810135005A8EB0 /* resume32.png in Resources */ = {isa = PBXBuildFile; fileRef = 387742E31C810135005A8EB0 /* resume32.png */; };
+		387742EC1C810135005A8EB0 /* sourcedoc32.png in Resources */ = {isa = PBXBuildFile; fileRef = 387742E41C810135005A8EB0 /* sourcedoc32.png */; };
+		387742ED1C810135005A8EB0 /* stop32.png in Resources */ = {isa = PBXBuildFile; fileRef = 387742E51C810135005A8EB0 /* stop32.png */; };
+		387742EE1C810135005A8EB0 /* twittericon32.png in Resources */ = {isa = PBXBuildFile; fileRef = 387742E61C810135005A8EB0 /* twittericon32.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		380C78421C810588007D9447 /* People.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = People.h; sourceTree = "<group>"; };
+		380C78431C810588007D9447 /* People.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = People.m; sourceTree = "<group>"; };
+		380C78441C810588007D9447 /* PeopleTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PeopleTableViewCell.h; sourceTree = "<group>"; };
+		380C78451C810588007D9447 /* PeopleTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PeopleTableViewCell.m; sourceTree = "<group>"; };
 		387742AF1C80F928005A8EB0 /* Energy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Energy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		387742B31C80F928005A8EB0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		387742B51C80F928005A8EB0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -26,6 +40,14 @@
 		387742BE1C80F928005A8EB0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		387742C11C80F928005A8EB0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		387742C31C80F928005A8EB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		387742DF1C810135005A8EB0 /* email32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = email32.png; sourceTree = "<group>"; };
+		387742E01C810135005A8EB0 /* facebookicon32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = facebookicon32.png; sourceTree = "<group>"; };
+		387742E11C810135005A8EB0 /* pause32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pause32.png; sourceTree = "<group>"; };
+		387742E21C810135005A8EB0 /* play32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = play32.png; sourceTree = "<group>"; };
+		387742E31C810135005A8EB0 /* resume32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = resume32.png; sourceTree = "<group>"; };
+		387742E41C810135005A8EB0 /* sourcedoc32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sourcedoc32.png; sourceTree = "<group>"; };
+		387742E51C810135005A8EB0 /* stop32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stop32.png; sourceTree = "<group>"; };
+		387742E61C810135005A8EB0 /* twittericon32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = twittericon32.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +80,11 @@
 		387742B11C80F928005A8EB0 /* Energy */ = {
 			isa = PBXGroup;
 			children = (
+				380C78421C810588007D9447 /* People.h */,
+				380C78431C810588007D9447 /* People.m */,
+				380C78441C810588007D9447 /* PeopleTableViewCell.h */,
+				380C78451C810588007D9447 /* PeopleTableViewCell.m */,
+				387742EF1C8101B1005A8EB0 /* Images */,
 				387742B51C80F928005A8EB0 /* AppDelegate.h */,
 				387742B61C80F928005A8EB0 /* AppDelegate.m */,
 				387742B81C80F928005A8EB0 /* ViewController.h */,
@@ -77,6 +104,21 @@
 				387742B31C80F928005A8EB0 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		387742EF1C8101B1005A8EB0 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				387742DF1C810135005A8EB0 /* email32.png */,
+				387742E01C810135005A8EB0 /* facebookicon32.png */,
+				387742E11C810135005A8EB0 /* pause32.png */,
+				387742E21C810135005A8EB0 /* play32.png */,
+				387742E31C810135005A8EB0 /* resume32.png */,
+				387742E41C810135005A8EB0 /* sourcedoc32.png */,
+				387742E51C810135005A8EB0 /* stop32.png */,
+				387742E61C810135005A8EB0 /* twittericon32.png */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,9 +178,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				387742EC1C810135005A8EB0 /* sourcedoc32.png in Resources */,
 				387742C21C80F928005A8EB0 /* LaunchScreen.storyboard in Resources */,
 				387742BF1C80F928005A8EB0 /* Assets.xcassets in Resources */,
+				387742EE1C810135005A8EB0 /* twittericon32.png in Resources */,
 				387742BD1C80F928005A8EB0 /* Main.storyboard in Resources */,
+				387742E91C810135005A8EB0 /* pause32.png in Resources */,
+				387742E71C810135005A8EB0 /* email32.png in Resources */,
+				387742EB1C810135005A8EB0 /* resume32.png in Resources */,
+				387742E81C810135005A8EB0 /* facebookicon32.png in Resources */,
+				387742ED1C810135005A8EB0 /* stop32.png in Resources */,
+				387742EA1C810135005A8EB0 /* play32.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -149,6 +199,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				380C78461C810588007D9447 /* People.m in Sources */,
+				380C78471C810588007D9447 /* PeopleTableViewCell.m in Sources */,
 				387742BA1C80F928005A8EB0 /* ViewController.m in Sources */,
 				387742B71C80F928005A8EB0 /* AppDelegate.m in Sources */,
 				387742B41C80F928005A8EB0 /* main.m in Sources */,
@@ -298,6 +350,7 @@
 				387742C81C80F928005A8EB0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
